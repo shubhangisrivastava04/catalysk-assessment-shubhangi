@@ -1,0 +1,79 @@
+[
+  {
+    "check_id": "V-01",
+    "name": "Duplicate transaction IDs",
+    "status": "FAIL",
+    "affected_rows": 116,
+    "sample_ids": [
+      "TXN100238",
+      "TXN101304",
+      "TXN100760"
+    ]
+  },
+  {
+    "check_id": "V-02",
+    "name": "Date parseability",
+    "status": "FAIL",
+    "affected_rows": 21,
+    "sample_ids": [
+      "TXN101697",
+      "TXN101482",
+      "TXN101346"
+    ]
+  },
+  {
+    "check_id": "V-03",
+    "name": "Amount numeric",
+    "status": "FAIL",
+    "affected_rows": 19,
+    "sample_ids": [
+      "TXN100820",
+      "TXN100922",
+      "TXN100402"
+    ]
+  },
+  {
+    "check_id": "V-04",
+    "name": "Sign-type consistency",
+    "status": "FAIL",
+    "affected_rows": 68,
+    "sample_ids": [
+      "TXN101880",
+      "TXN100905",
+      "TXN101501"
+    ]
+  },
+  {
+    "check_id": "V-05",
+    "name": "Future dates",
+    "status": "FAIL",
+    "affected_rows": 20,
+    "sample_ids": [
+      "TXN101116",
+      "TXN100051",
+      "TXN101303"
+    ]
+  },
+  {
+    "check_id": "V-06",
+    "name": "Empty narration",
+    "status": "FAIL",
+    "affected_rows": 105,
+    "sample_ids": [
+      "TXN101987",
+      "TXN101548",
+      "TXN101349"
+    ]
+  },
+  {
+    "check_id": "V-07",
+    "name": "Null-like tokens",
+    "status": "FAIL",
+    "affected_rows": 11,
+    "sample_ids": [
+      "TXN101250",
+      "TXN100949",
+      "TXN101979"
+    ]
+  }
+]
