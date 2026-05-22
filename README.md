@@ -52,13 +52,13 @@ The most impactful issue is V-04 (68 rows) — sign-type mismatches would cause 
 
 ### Merchant Seasonality
 
-SALARY_CR (161 txns) and EMI_CR (159 txns) are the top two "merchants" by count — consistent with a salaried consumer base making regular EMI repayments. Retail merchants like PORTRONICS, DMART, and AIRTEL show stable monthly distribution with a mild uptick in March and August, aligning with the broader volume peaks.
+SALARY_CR (161 txns) and EMI_CR (159 txns) are the top two "merchants" by count, consistent with a salaried consumer base making regular EMI repayments. Retail merchants like PORTRONICS, DMART, and AIRTEL show stable monthly distribution with a mild uptick in March and August, aligning with the broader volume peaks.
 
 ---
 
 ## 3C — Sustainability Insight
 
-Across the cleaned dataset of 50 consumers, total spending at fuel merchants (BPCL and INDIAN_OIL) is ₹2.83 lakh versus ₹1.54 lakh at BLR Metro — a 1.8x fuel-to-public-transport ratio. When merchants are weighted by estimated carbon intensity and each consumer is assigned a Carbon Proxy Index (normalised by their total spend), 45 out of 50 consumers fall into the "High Emission" category, and not a single consumer qualifies as "Green." This was found by tagging merchants into carbon tiers (fuel = high, metro/local grocery = low, delivery platforms = mid) and computing a weighted spend score per consumer. For a product team at Catalysk Green Solutions, this is an immediately actionable signal: the consumer base skews heavily carbon-positive, which makes it a strong candidate for green nudge features — for example, flagging consumers with a high BPCL-to-Metro ratio and surfacing a "switch 2 fuel trips to Metro this month" prompt, or pricing ESG-linked credit rewards for consumers who improve their Carbon Index over time.
+Across the cleaned dataset of 50 consumers, total spending at fuel merchants (BPCL and INDIAN_OIL) is ₹2.83 lakh versus ₹1.54 lakh at BLR Metro, a 1.8x fuel-to-public-transport ratio. When merchants are weighted by estimated carbon intensity and each consumer is assigned a Carbon Proxy Index (normalised by their total spend), 45 out of 50 consumers fall into the "High Emission" category, and not a single consumer qualifies as "Green." This was found by tagging merchants into carbon tiers (fuel = high, metro/local grocery = low, delivery platforms = mid) and computing a weighted spend score per consumer. For a product team at Catalysk Green Solutions, this is an immediately actionable signal: the consumer base skews heavily carbon-positive, which makes it a strong candidate for green nudge features, for example, flagging consumers with a high BPCL-to-Metro ratio and surfacing a "switch 2 fuel trips to Metro this month" prompt, or pricing ESG-linked credit rewards for consumers who improve their Carbon Index over time.
 
 ---
 
